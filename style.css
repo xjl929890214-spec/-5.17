@@ -92,8 +92,15 @@ h1 {
   box-shadow: 0 16px 40px rgba(108, 92, 231, 0.5);
 }
 
-.pet-card {
+.pet-gallery {
   margin-top: 56px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 28px;
+}
+
+.pet-card {
   display: flex;
   flex-direction: column;
   align-items: center;
